@@ -16,6 +16,11 @@ import Register from "./pages/Register";
 import Search from "./pages/Search";
 import ForgotPassword from "./pages/ForgotPassword";
 import NotFound from "./pages/NotFound";
+import SuccessStories from "./pages/SuccessStories";
+import FAQ from "./pages/FAQ";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import Safety from "./pages/Safety";
 
 // Admin pages
 import Dashboard from "./pages/admin/Dashboard";
@@ -43,6 +48,11 @@ const App = () => (
             <Route path="/register" element={<Register />} />
             <Route path="/search" element={<Search />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
+            <Route path="/success-stories" element={<SuccessStories />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/safety" element={<Safety />} />
 
             {/* Admin Routes */}
             <Route
